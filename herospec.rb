@@ -1,5 +1,5 @@
 require './hero'
-require './car'
+
 
 describe Hero do
 
@@ -26,9 +26,5 @@ describe Hero do
 
     expect(@hero.hero_info).to eq "Mike has a health of 100"
   end
-
-end
-
-describe Car do
 
 end
