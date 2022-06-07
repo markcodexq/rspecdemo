@@ -1,10 +1,12 @@
 require './hero'
+require './car'
 
 describe Hero do
 
   before do
     @hero = Hero.new("mike")
   end
+
   it "has a capitalized name" do
 
     expect(@hero.name).to eq "Mike"
@@ -24,5 +26,9 @@ describe Hero do
 
     expect(@hero.hero_info).to eq "Mike has a health of 100"
   end
+
+end
+
+describe Car do
 
 end
