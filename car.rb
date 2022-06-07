@@ -20,3 +20,10 @@ end
 car = Car.new
 car.add_fuel(10)
 puts "Range is #{car.range}"
+
+# arrange подготовим всё необходимое для проведения теста
+# car = Car.new
+# act действие
+# result = car.add_fuel 10
+# assert
+# expect(result)...
